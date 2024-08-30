@@ -14,6 +14,7 @@ setUsername('');
 return (
 <div>
 <h1>Sign Up</h1>
+<h1>dhruvi</h1>
 <form onSubmit={handleSignup}>
 <input type="text" placeholder="Username" value={username} onChange={(e) =>
 setUsername(e.target.value)}/>
